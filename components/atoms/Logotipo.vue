@@ -1,7 +1,7 @@
 <template>
   <img
     class="w-full h-20"
-    src="/img/logotipo.png"
-    alt="Logotipo Sabrina Campos"
+    src="/img/Logotipo Tellcorp.png"
+    alt="Logotipo Tellcorp Tecnologia"
   />
 </template>

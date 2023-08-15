@@ -108,7 +108,7 @@ const myList = ref([
       </div>
 
       <div class="flex justify-center space-x-6 md:order-first md:mb-0">
-        Todos os direitos reservados a Sabrina Campos
+        Todos os direitos reservados a Tellcorp Tecnologia
       </div>
     </div>
   </footer>
