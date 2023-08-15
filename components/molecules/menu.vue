@@ -12,8 +12,8 @@ const menuOptions = ref<MenuOption[]>([
     key: "about",
   },
   {
-    label: "Serviços",
-    key: "services",
+    label: "Soluções",
+    key: "solutions",
   },
   {
     label: "Contato",
@@ -27,9 +27,9 @@ function handleSelect(event: any) {
 </script>
 
 <template>
-  <div class="flex-col justify-center items-center block lg:hidden">
+  <div class="flex-col justify-center items-center font-bold block lg:hidden">
     <n-menu
-      class="!font-semibold"
+      class="!font-bold"
       v-model:value="activeKey"
       mode="vertical"
       :options="menuOptions"
@@ -39,7 +39,7 @@ function handleSelect(event: any) {
   </div>
   <div class="flex-col justify-center items-center hidden lg:block">
     <n-menu
-      class="!font-semibold"
+      class="!font-semibold text-base"
       v-model:value="activeKey"
       mode="horizontal"
       :options="menuOptions"

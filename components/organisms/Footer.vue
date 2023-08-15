@@ -55,7 +55,7 @@ const myList = ref([
 </script>
 
 <template>
-  <footer class="bg-primary" aria-labelledby="footer-heading ">
+  <!-- <footer class="bg-primary" aria-labelledby="footer-heading ">
     <div class="px-4 py-12 mx-auto w-full sm:px-6 lg:px-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="flex flex-col justify-center items-center my-3">
@@ -111,5 +111,5 @@ const myList = ref([
         Todos os direitos reservados a Tellcorp Tecnologia
       </div>
     </div>
-  </footer>
+  </footer> -->
 </template>

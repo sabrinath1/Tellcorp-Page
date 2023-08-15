@@ -6,7 +6,7 @@
       >
         <div class="flex w-full justify-center">
           <h1
-            class="text-primary hidden md:block text-6xl lg:text-8xl md:pt-10 text-center md:text-justify md:ml-10"
+            class="text-primary hidden md:block text-6xl lg:text-8xl md:pt-10 text-center md:text-justify xl:text-center md:ml-10"
           >
             TELLCORP TECNOLOGIA
           </h1>
