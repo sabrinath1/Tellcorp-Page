@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 
 <template>
   <div
-    class="menu p-4 w-80 bg-primary/60 backdrop-blur-sm text-base-content z-50"
+    class="menu p-4 w-80 bg-primary/60 backdrop-blur-sm text-base-content z-50 h-full"
   >
     <div class="flex justify-end">
       <label
@@ -14,8 +14,8 @@ const social = useSocialRedirect();
         <svg
           class="fill-current"
           xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
+          width="40"
+          height="40"
           viewBox="0 0 512 512"
         >
           <polygon
@@ -37,8 +37,7 @@ const social = useSocialRedirect();
     </div>
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
       <AtomsButtonInstagram />
-      <AtomsButtonFacebook />
-      <AtomsButtonLinkedin />
+
       <AtomsButtonWhatsapp />
     </div>
   </div>

@@ -29,7 +29,7 @@ function handleSelect(event: any) {
 <template>
   <div class="flex-col justify-center items-center font-bold block lg:hidden">
     <n-menu
-      class="!font-bold"
+      class="!font-bold !text-white"
       v-model:value="activeKey"
       mode="vertical"
       :options="menuOptions"
@@ -43,7 +43,6 @@ function handleSelect(event: any) {
       v-model:value="activeKey"
       mode="horizontal"
       :options="menuOptions"
-      :inverted="true"
       :on-update:value="handleSelect"
     />
   </div>
