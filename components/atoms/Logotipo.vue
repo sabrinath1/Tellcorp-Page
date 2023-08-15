@@ -1,6 +1,6 @@
 <template>
   <img
-    class="w-full h-20"
+    class="flex w-full md:h-20 h-16"
     src="/img/Logotipo Tellcorp.png"
     alt="Logotipo Tellcorp Tecnologia"
   />

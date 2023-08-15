@@ -6,24 +6,30 @@
       >
         <div class="flex w-full justify-center">
           <h1
-            class="text-primary hidden md:block text-6xl lg:text-8xl md:pt-10 text-center md:text-justify xl:text-center md:ml-10"
+            class="text-primary hidden md:block text-6xl lg:text-7xl xl:text-8xl md:pt-10 text-justify lg:text-center md:ml-10"
           >
             TELLCORP TECNOLOGIA
           </h1>
         </div>
       </div>
-      <div class="flex justify-center md:justify-end md:mt-28 h-auto w-auto">
+      <div
+        class="flex justify-center md:justify-end md:mt-28 h-auto w-auto xl:self-end xl:mt-48"
+      >
         <img src="/img/banner-main.png" />
       </div>
     </div>
     <div class="flex-col self-center justify-center">
-      <div class="flex w-full justify-center md:justify-start">
-        <h1 class="text-primary text-2xl mx-6 md:mx-10 block md:hidden my-4">
+      <!-- <div class="flex w-full justify-center md:justify-start">
+        <h1
+          class="text-primary font-bold text-3xl mx-6 md:mx-10 block md:hidden my-4"
+        >
           TELLCORP TECNOLOGIA
         </h1>
-      </div>
+      </div> -->
       <div class="flex w-full justify-center md:justify-start">
-        <h3 class="text-white text-sm md:text-3xl lg:text-5xl mx-6 md:mx-10">
+        <h3
+          class="text-white text-xl md:text-3xl lg:text-4xl xl:text-5xl mx-6 md:mx-10"
+        >
           CONECTANDO SUA EMPRESA AO MUNDO
         </h3>
       </div>

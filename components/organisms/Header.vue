@@ -9,7 +9,7 @@ const social = useSocialRedirect();
       <div class="flex-none lg:hidden">
         <label
           for="my-drawer-3"
-          class="btn btn-circle swap swap-rotate bg-primary text-white border-white hover:bg-secondary"
+          class="btn btn-circle swap swap-rotate bg-white text-primary border-white hover:bg-secondary"
         >
           <svg
             class="fill-current"
@@ -25,7 +25,7 @@ const social = useSocialRedirect();
         </label>
       </div>
 
-      <div class="flex px-2 mx-2 justify-end pt-3">
+      <div class="flex px-2 mx-2">
         <AtomsLogotipo></AtomsLogotipo>
       </div>
 
