@@ -11,10 +11,11 @@ function redirect(
 
   switch (social) {
     case "instagram":
-      link = "https://www.instagram.com/";
+      link = "https://instagram.com/tellcorpassessoria?igshid=MzRlODBiNWFlZA==";
       break;
     case "whatsapp":
-      link = "https://www.whatsapp.com/";
+      link =
+        "https://api.whatsapp.com/send?phone=5515981550048&text=Ol%C3%A1!%0AGostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20de%20Web%20Design%20da%20Tellcorp%20Tecnologia.";
       break;
     case "facebook":
       link = "https://www.facebook.com/";

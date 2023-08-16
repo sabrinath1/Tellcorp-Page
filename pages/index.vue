@@ -6,4 +6,7 @@ definePageMeta({
 <template>
   <OrganismsBanner />
   <OrganismsPresentation />
+
+  <OrganismsAbout />
+  <OrganismsSolutions />
 </template>
