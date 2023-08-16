@@ -7,15 +7,17 @@ const props = defineProps<{
 </script>
 <template>
   <div
-    class="flex-col justify-center items-center rounded-lg border-2"
+    class="flex-col justify-center items-center rounded-lg border-2 px-6 h-80 lg:h-72 2xl:h-60 backdrop-blur-sm bg-secondary/30"
     :class="{
       'border-white': props.color === 'white',
       'border-secondary': props.color === 'white-green',
     }"
   >
-    <h4>{{ props.title }}</h4>
+    <h4 class="text-white font-semibold flex justify-center pt-6">
+      {{ props.title }}
+    </h4>
     <div
-      class="flex text-white text-justify text-base font-normal w-full justify-center my-6"
+      class="flex text-white text-justify font-normal w-full justify-center my-6"
     >
       {{ props.content }}
     </div>
