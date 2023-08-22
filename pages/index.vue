@@ -9,4 +9,5 @@ definePageMeta({
 
   <OrganismsSolutions />
   <OrganismsCall img-call="/img/call.png" />
+  <OrganismsDifferentials />
 </template>
