@@ -7,6 +7,6 @@ definePageMeta({
   <OrganismsBanner />
   <OrganismsPresentation />
 
-  <OrganismsAbout />
   <OrganismsSolutions />
+  <OrganismsCall img-call="/img/call.png" />
 </template>
