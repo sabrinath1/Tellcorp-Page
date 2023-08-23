@@ -8,7 +8,7 @@ const social = useSocialRedirect();
 <template>
   <div class="flex">
     <button
-      class="text-white hover:text-secondary rounded-lg w-auto h-10 flex justify-center items-center px-6 font-semibold"
+      class="text-white rounded-lg w-auto h-10 flex justify-center items-center px-6 font-semibold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ..."
       :class="{
         'bg-primary': props.color === 'blue',
         'bg-secondary': props.color === 'white-green',

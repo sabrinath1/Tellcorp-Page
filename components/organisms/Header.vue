@@ -2,11 +2,11 @@
 const social = useSocialRedirect();
 </script>
 <template>
-  <div class="flex w-full justify-center z-0">
+  <div class="flex w-full justify-center">
     <div
-      class="w-11/12 xl:w-8/12 navbar bg-white justify-between fixed h-24 mt-4 rounded-lg"
+      class="w-11/12 xl:w-8/12 z-10 navbar bg-white justify-between fixed h-24 mt-4 rounded-lg"
     >
-      <div class="flex-none lg:hidden">
+      <div class="flex-none lg:hidden z-50">
         <label
           for="my-drawer-3"
           class="btn btn-circle swap swap-rotate bg-white text-primary border-white hover:bg-secondary"

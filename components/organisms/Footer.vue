@@ -58,11 +58,13 @@ const social = useSocialRedirect();
       ></path>
     </svg>
   </div>
-  <div class="px-4 py-12 mx-auto w-full sm:px-6 lg:px-16 bg-secondary -mt-20">
+  <div
+    class="px-4 py-12 mx-auto w-full sm:px-6 lg:px-16 bg-secondary xl:-mt-20"
+  >
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="flex flex-col justify-center items-center my-3">
         <img
-          class="w-40 xl:w-56 h-auto -mt-20"
+          class="w-40 xl:w-56 h-auto xl:-mt-20"
           src="/img/logotipo-vertical.png"
           alt="Logotipo Tellcorp Tecnologia"
         />
@@ -125,7 +127,7 @@ const social = useSocialRedirect();
     <div
       class="flex justify-center space-x-6 md:order-first md:mb-0 text-white"
     >
-      Todos os direitos reservados a Tellcorp Tecnologia
+      Todos os direitos reservados à Tellcorp Tecnologia
     </div>
   </div>
 </template>

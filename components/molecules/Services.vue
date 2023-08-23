@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-col justify-center">
+  <div class="flex-col justify-center -z-0">
     <div class="flex w-full justify-center">
       <AtomsTitle
         name="Soluções Personalizadas para a sua empresa!"

@@ -1,7 +1,9 @@
 <template>
-  <div class="w-full justify-center items-center -z-0">
-    <div class="relative flex justify-center w-4/5 mx-auto">
-      <div class="flex-col w-4/5 xl:w-3/5 justify-center items-center mx-auto">
+  <div class="w-full justify-center items-center -mb-10 md:-mb-32 mt-10">
+    <div class="flex justify-center w-4/5 mx-auto">
+      <div
+        class="flex-col w-4/5 xl:w-4/5 2xl:w-3/5 justify-center items-center mx-auto"
+      >
         <div class="flex justify-center w-full">
           <AtomsTitle name="Porque Escolher a Tellcorp?" color="white-green" />
         </div>
