@@ -45,6 +45,7 @@ const myList = ref([
     ],
   },
 ]);
+const social = useSocialRedirect();
 </script>
 
 <template>
@@ -61,7 +62,7 @@ const myList = ref([
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="flex flex-col justify-center items-center my-3">
         <img
-          c
+          class="w-40 h-auto"
           src="/img/logotipo-vertical.png"
           alt="Logotipo Tellcorp Tecnologia"
         />
@@ -87,7 +88,7 @@ const myList = ref([
                 <div class="flex">
                   <NuxtLink
                     :to="subItem.key"
-                    class="text-base font-semibold text-white hover:text-primary flex-row"
+                    class="text-base font-normal text-white hover:text-primary flex-row"
                   >
                     {{ subItem.label }}
                   </NuxtLink>

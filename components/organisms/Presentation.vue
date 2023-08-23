@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full justify-center items-center -z-0">
+  <div class="w-full justify-center items-center z-0">
     <div class="relative flex justify-center w-4/5 mx-auto">
       <div class="flex-col w-4/5 xl:w-3/5 justify-center items-center mx-auto">
         <div class="flex justify-center w-full">
@@ -17,7 +17,7 @@
           />
         </div>
       </div>
-      <div class="w-full justify-end -mt-96 flex fixed top-1/2 left-0 right-0">
+      <!-- <div class="w-full justify-end -mt-96 flex fixed">
         <svg
           width="200"
           height="250"
@@ -55,7 +55,7 @@
           </defs>
         </svg>
       </div>
-      <div class="w-full justify-start mt-16 flex fixed top-3/4 left-0 right-0">
+      <div class="w-full justify-start flex fixed">
         <svg
           width="200"
           height="316"
@@ -85,7 +85,7 @@
             />
           </defs>
         </svg>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

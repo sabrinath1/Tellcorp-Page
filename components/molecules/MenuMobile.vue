@@ -36,9 +36,30 @@ const social = useSocialRedirect();
       </button>
     </div>
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
-      <AtomsButtonInstagram />
-
-      <AtomsButtonWhatsapp />
+      <div class="flex items-end space-x-4 mr-6">
+        <button
+          class="hidden sm:flex"
+          text
+          style="font-size: 35px"
+          @click="social.redirect('whatsapp')"
+        >
+          <Icon
+            name="mdi:whatsapp"
+            class="text-white hover:text-secondary transition-all"
+          />
+        </button>
+        <button
+          class="hidden sm:flex"
+          text
+          style="font-size: 35px"
+          @click="social.redirect('instagram')"
+        >
+          <Icon
+            name="mdi:instagram"
+            class="text-white hover:text-secondary transition-all"
+          />
+        </button>
+      </div>
     </div>
   </div>
 </template>

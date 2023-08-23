@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 <template>
   <div
-    class="flex-col justify-center items-center rounded-lg border-2 px-6 h-80 lg:h-72 2xl:h-60 backdrop-blur-sm bg-secondary/30"
+    class="flex-col z-0 justify-center items-center rounded-lg border-2 px-6 h-80 lg:h-60 2xl:h-60 backdrop-blur-sm bg-secondary/30"
     :class="{
       'border-white': props.color === 'white',
       'border-secondary': props.color === 'white-green',
