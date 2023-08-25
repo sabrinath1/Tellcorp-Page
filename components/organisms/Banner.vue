@@ -6,7 +6,7 @@
       >
         <div class="flex w-full justify-center">
           <h1
-            class="text-primary hidden md:block text-6xl lg:text-7xl xl:text-8xl md:pt-10 text-justify lg:text-center md:ml-10"
+            class="text-primary font-mono hidden md:block text-6xl lg:text-7xl xl:text-8xl md:pt-10 text-justify lg:text-center md:ml-10"
           >
             TELLCORP TECNOLOGIA
           </h1>
@@ -28,7 +28,7 @@
       </div> -->
       <div class="flex w-full justify-center md:justify-start">
         <h3
-          class="text-white text-xl md:text-3xl lg:text-4xl xl:text-5xl mx-6 md:mx-10"
+          class="text-white font-mono text-lg md:text-3xl lg:text-4xl xl:text-5xl mx-6 md:mx-10"
         >
           CONECTANDO SUA EMPRESA AO MUNDO
         </h3>

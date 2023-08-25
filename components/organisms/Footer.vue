@@ -78,7 +78,7 @@ const social = useSocialRedirect();
           :key="`title_${index}`"
         >
           <div class="flex flex-col">
-            <h3 class="text-xl font-bold tracking-wider text-primary">
+            <h3 class="text-xl font-bold tracking-wider text-primary font-mono">
               {{ i.title }}
             </h3>
             <ul role="list" class="mt-4 space-y-2 text-lg">
@@ -90,7 +90,7 @@ const social = useSocialRedirect();
                 <div class="flex">
                   <NuxtLink
                     :to="subItem.key"
-                    class="text-base font-normal text-white hover:text-primary flex-row"
+                    class="text-base text-white hover:text-primary flex-row"
                   >
                     {{ subItem.label }}
                   </NuxtLink>
@@ -125,7 +125,7 @@ const social = useSocialRedirect();
     </div>
 
     <div
-      class="flex justify-center space-x-6 md:order-first md:mb-0 text-white"
+      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-white"
     >
       Todos os direitos reservados à Tellcorp Tecnologia
     </div>

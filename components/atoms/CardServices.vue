@@ -13,11 +13,13 @@ const props = defineProps<{
       'border-secondary': props.color === 'white-green',
     }"
   >
-    <h4 class="text-secondary font-semibold flex justify-center pt-6">
+    <h4
+      class="text-secondary font-semibold flex justify-center pt-6 font-mono text-lg"
+    >
       {{ props.title }}
     </h4>
     <div
-      class="flex text-white text-justify font-normal w-full justify-center my-6"
+      class="flex text-white text-justify w-full justify-center my-6 font-light"
     >
       {{ props.content }}
     </div>

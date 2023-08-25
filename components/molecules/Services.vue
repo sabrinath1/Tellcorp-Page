@@ -1,10 +1,7 @@
 <template>
   <div class="flex-col justify-center -z-0">
     <div class="flex w-full justify-center">
-      <AtomsTitle
-        name="Soluções Personalizadas para a sua empresa!"
-        color="white-green"
-      />
+      <AtomsTitle name="Soluções Personalizadas" color="white-green" />
     </div>
     <div
       class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-3 justify-center w-4/5 h-auto mx-auto mt-10"
