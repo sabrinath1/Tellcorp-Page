@@ -12,8 +12,8 @@
         </div>
         <div class="flex-col justify-center items-center my-6">
           <AtomsCardDifferential
-            title="Experiência e Profissionalismo:"
-            content="Com anos de experiência no mercado de tecnologia, somos especialistas no que fazemos. Nossa equipe altamente qualificada e profissional está pronta para enfrentar qualquer desafio."
+            title="Profissionalismo:"
+            content="Nossa equipe altamente qualificada e profissional está pronta para enfrentar qualquer desafio."
           />
           <AtomsCardDifferential
             title="Soluções Personalizadas:"

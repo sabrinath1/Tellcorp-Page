@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full justify-center items-center static">
+  <div class="w-full justify-center items-center relative -z-30">
     <div class="relative flex justify-center w-4/5 mx-auto">
       <div class="flex-col w-4/5 xl:w-3/5 justify-center items-center mx-auto">
         <div class="flex justify-start w-full">
           <AtomsTitle
-            name="Bem-vindo ao Mundo de Inovação Tellcorp!"
+            name="Bem-vindo ao Mundo de Inovação"
             color="white-green"
           />
         </div>
