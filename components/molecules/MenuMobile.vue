@@ -4,7 +4,7 @@ const social = useSocialRedirect();
 
 <template>
   <div
-    class="menu p-4 w-80 bg-primary/60 backdrop-blur-sm text-base-content z-50 h-full"
+    class="menu p-4 w-80 bg-primary/60 backdrop-blur-sm text-base-content h-full"
   >
     <div class="flex justify-end">
       <label

@@ -14,7 +14,7 @@
         <AtomsButtonContact name="Entrar em Contato" color="blue" />
       </div>
     </div>
-    <div class="hidden md:flex w-full md:w-60 lg:w-full ml-10">
+    <div class="hidden md:flex w-full md:w-60 lg:w-full ml-10 lg:ml-1">
       <img src="/img/pc.png" />
     </div>
   </div>
