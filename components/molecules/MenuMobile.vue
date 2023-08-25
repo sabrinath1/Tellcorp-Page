@@ -38,7 +38,7 @@ const social = useSocialRedirect();
     <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
       <div class="flex items-end space-x-4 mr-6">
         <button
-          class="hidden sm:flex"
+          class="flex"
           text
           style="font-size: 35px"
           @click="social.redirect('whatsapp')"
@@ -49,7 +49,7 @@ const social = useSocialRedirect();
           />
         </button>
         <button
-          class="hidden sm:flex"
+          class="flex"
           text
           style="font-size: 35px"
           @click="social.redirect('instagram')"
