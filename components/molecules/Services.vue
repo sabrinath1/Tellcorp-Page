@@ -2,7 +2,7 @@
   <div class="flex-col justify-center -z-0">
     <div class="flex w-full justify-center">
       <AtomsTitle
-        name="Soluções Personalizadas Para Sua Empresa!"
+        name="Soluções Personalizadas Para Sua Empresa!pnp"
         color="white-green"
       />
     </div>
