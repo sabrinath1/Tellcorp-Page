@@ -78,7 +78,7 @@ const social = useSocialRedirect();
               >
                 <div class="flex">
                   <NuxtLink
-                    :to="subItem.key"
+                    :to="subItem.label"
                     class="text-base text-white hover:text-primary flex-row"
                   >
                     {{ subItem.label }}
