@@ -51,7 +51,7 @@ const social = useSocialRedirect();
 <template>
   <div class="px-4 py-12 mx-auto w-full sm:px-6 lg:px-16 bg-secondary mt-10">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="flex flex-col justify-center items-center mt-16">
+      <div class="flex flex-col justify-center items-center lg:mt-16">
         <img
           class="w-40 xl:w-56 h-auto xl:-mt-20"
           src="/img/logotipo-vertical.png"
