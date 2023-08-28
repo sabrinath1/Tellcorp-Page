@@ -1,8 +1,8 @@
 <template>
-  <div class="fixed flex justify-center">
+  <div class="flex fixed justify-center z-50 bg-red">
     <n-back-top
-      :bottom="100"
-      :visibility-height="600"
+      :bottom="10"
+      :visibility-height="300"
       :style="{
         transition: 'all .3s cubic-bezier(.4, 0, .2, 1)',
       }"
