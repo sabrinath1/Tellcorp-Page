@@ -2,7 +2,7 @@
   <div class="fixed flex justify-center">
     <n-back-top
       :bottom="100"
-      :visibility-height="800"
+      :visibility-height="600"
       :style="{
         transition: 'all .3s cubic-bezier(.4, 0, .2, 1)',
       }"
