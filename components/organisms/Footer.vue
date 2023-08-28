@@ -29,7 +29,7 @@ const myList = ref([
         label: "(15)98178-0015",
       },
       {
-        label: "atendimento@tellcorpassessoria.com.br",
+        label: "camila@tellcorpassessoria.com.br",
       },
     ],
   },
@@ -114,7 +114,7 @@ const social = useSocialRedirect();
     </div>
 
     <div
-      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-white"
+      class="flex justify-center font-extralight space-x-6 md:order-first md:mb-0 text-white text-center"
     >
       Todos os direitos reservados à Tellcorp Tecnologia
     </div>
